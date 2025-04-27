@@ -1,76 +1,87 @@
 # 🧑‍💻 MyPortfolio - Vue 3 + Vite Personal Website
 
-A stunning and futuristic portfolio website built using **Vue 3**, **Vite**, and **Tailwind CSS**. This single-page application is designed to showcase my skills, projects, and contact details in a professional and interactive manner.
+A modern, responsive portfolio website built with **Vue.js 3** and **Vite**, featuring smooth animations, interactive elements, and a clean design.
 
 ![Portfolio Banner](https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=800)
 
 ## 🚀 Features
 
-- 🎨 Modern, futuristic UI design
-- 💼 Projects section with animations and hover effects
-- 📜 Downloadable resume with a clean modal popup
-- 🧭 Smooth scrolling and active link highlighting
-- 🖼️ Image slider for showcasing work or certifications
-- 📱 Fully responsive and mobile-friendly
-- 🌙 Dark mode toggle
-- 👁️ Interactive and animated About section
+- Responsive design that works on all devices
+- Modern UI with smooth animations using GSAP
+- Interactive particle effects using TSParticles
+- Smooth scrolling and parallax effects
+- Contact form with validation
+- Social media integration
+- Animated typing effect
+- Swiper for carousel/slider components
+- Font Awesome icons integration
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
-- **Frontend:**
-  - Vue 3
-  - Vite
-  - Tailwind CSS
-  - Vue Router
-  - AOS (Animate On Scroll)
-  - FontAwesome Icons
+- **Vue.js 3** - Progressive JavaScript framework
+- **Vite** - Next Generation Frontend Tooling
+- **GSAP** - Professional-grade animation library
+- **TSParticles** - Lightweight and free library for creating particles
+- **AOS (Animate On Scroll)** - Library for scroll animations
+- **Swiper** - Modern mobile touch slider
+- **Vue Router** - Official router for Vue.js
+- **Font Awesome** - Icon library and toolkit
+- **Vue3 Typed JS** - Typing animation effect
 
-## 🏗️ Architecture & Layout
+## 📦 Installation
 
-- Modular component structure
-- One-page layout with dynamic navigation
-- Assets organized for ease of updating
-- Sections: Home, About, Projects, Contact
-
-## 🚀 Getting Started
-
-1. **Clone the repository**
+1. Clone the repository:
 ```bash
-git clone https://github.com/Preyapradhan/MyPortfolio.git
-cd MyPortfolio
+git clone [your-repository-url]
+cd my-portfolio
 ```
 
-2. **Install dependencies**
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-3. **Run the development server**
+3. Start the development server:
 ```bash
 npm run dev
 ```
 
-4. **Build for production**
+4. Build for production:
 ```bash
 npm run build
 ```
 
-## 📁 Folder Structure
+## 🎨 Project Structure
 
 ```
-src/
-├── assets/            # Images and icons
-├── components/        # Reusable UI components
-├── views/             # Section views like Home, About, Projects, Contact
-├── router/            # Vue Router configuration
-└── App.vue            # Main app wrapper
+my-portfolio/
+├── src/
+│   ├── views/          # Page components
+│   ├── components/     # Reusable components
+│   ├── assets/         # Static assets
+│   └── router/         # Vue Router configuration
+├── public/             # Public static files
+└── index.html          # Entry HTML file
 ```
+
+## 🔧 Configuration
+
+The project uses Vite as the build tool. The main configuration file is `vite.config.js`.
+
+## 📱 Responsive Design
+
+The portfolio is fully responsive and optimized for:
+- Mobile devices
+- Tablets
+- Laptops
+- Desktop screens
 
 ## 🙏 Acknowledgments
 
-- Design inspiration from modern UI/UX trends
-- Icons by FontAwesome
-- Background images from Unsplash
+- Font Awesome for the icons
+- GSAP for the animations
+- TSParticles for the particle effects
+- All other open-source libraries used in this project
 
 ## 🎨 Frontend Images
 
